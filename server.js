@@ -19,6 +19,7 @@ app.use(express.urlencoded({ limit: '50mb', extended: true }));
 const allowedOrigins = [
   'http://localhost:3000',
   'https://digital-voting-frontend-jkh60nmy6.vercel.app',
+  'https://digital-voting-frontend-i49rpwmk6.vercel.app',
 ];
 
 app.use(cors({
